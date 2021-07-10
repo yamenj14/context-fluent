@@ -27,7 +27,9 @@ Main features:
 * A service can have its own service that is not shared with other contexts. (es)
 Controllers in all contexts are extended by the parent controller and can have their own endpoints.
 
-![](Internationalised Applications.png?raw=true "structure")
+
+<img align="right" src="Internationalised Applications.png">
+
 
 
 ### Relevant Articles:
