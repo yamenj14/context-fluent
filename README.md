@@ -36,9 +36,13 @@ In this screenshot, we can see the parent context and three other contexts, name
 <br/>
 
 ### High Level Architecture on a K8s cluster
+<br/>
+<br/>
 
 <img align="center" src="Internationalised Applications.png">
 
+<br/>
+<br/>
 
 ### Relevant Articles:
 
