@@ -18,7 +18,7 @@ In this way, we can start one Parent Context and country-specific Child Context 
 
 In this screenshot, we can see the parent context and three other contexts, named after the application_country, de, es and fr.
 
-<img align="right" src="Hierarchy.png">
+<img align="right" width="200" height="451" src="Hierarchy.png">
 
 Main features:
 * A context can inherit from the parent context so it has no extra services or business logic. (de)
