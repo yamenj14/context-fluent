@@ -27,13 +27,13 @@ In this screenshot, we can see the parent context and three other contexts, name
 * A service can have its own service that is not shared with other contexts. (es)
 * Controllers in all contexts are extended by the parent controller and can have their own endpoints.
 
-
-
-
-
-
-
-
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 ### High Level Architecture on a K8s cluster
 
