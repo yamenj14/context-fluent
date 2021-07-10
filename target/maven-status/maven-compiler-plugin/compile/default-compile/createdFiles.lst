@@ -2,6 +2,7 @@ com/heycar/fr/FrConfig.class
 com/heycar/de/DeConfig.class
 com/heycar/parent/App.class
 com/heycar/es/EsController.class
+com/heycar/parent/ParentController.class
 com/heycar/es/GreetingService.class
 com/heycar/es/SpanishService.class
 com/heycar/parent/ParentConfig.class
