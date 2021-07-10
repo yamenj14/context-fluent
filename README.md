@@ -25,15 +25,13 @@ In this screenshot, we can see the parent context and three other contexts, name
 * A context inherits a service from the parent service but overrides it with extra functionalities/business logic. (fr)
 * A service inherits a service from its parent, overrides it with extra functionalities/business logic. (es)
 * A service can have its own service that is not shared with other contexts. (es)
-Controllers in all contexts are extended by the parent controller and can have their own endpoints.
+* Controllers in all contexts are extended by the parent controller and can have their own endpoints.
 
+
+
+### High Level Architecture on a K8s cluster
 
 <img align="right" src="Internationalised Applications.png">
-
-
-
-
-
 
 
 ### Relevant Articles:
