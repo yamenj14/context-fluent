@@ -27,6 +27,29 @@ In this screenshot, we can see the parent context and three other contexts, name
 * A service can have its own service that is not shared with other contexts. (es)
 * Controllers in all contexts are extended by the parent controller and can have their own endpoints.
 
+##### Thoughts on the application_country:
+We have two options to create a context: 
+1. application_country as an environment variable
+2. Parameterizing the build job on circleci so we can pass the argument as follows: 
+  ```
+   -Dspring-boot.run.arguments=--application_country=es
+  ```
+  And in the main method :
+  
+  ```
+       @Override
+    public void run(ApplicationArguments args) throws Exception {
+        private String applicationCountry;
+        if (!args.containsOption("application_country")) {
+            System.err.println("no country specified");
+        } else {
+            List<String> vals = args.getOptionValues("es");
+            applicationCountry = vals.get(0);
+        }
+    }
+
+  ```
+
 <br/>
 <br/>
 <br/>
