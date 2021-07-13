@@ -29,8 +29,7 @@ In this screenshot, we can see the parent context and three other contexts, name
 
 ##### Thoughts on the application_country:
 We have two options to create a context: 
-1. application_country as an environment variable
-2. Parameterizing the build job on circleci so we can pass the argument as follows: 
+Parameterizing the build job on circleci so we can pass the argument as follows: 
   ```
    -Dspring-boot.run.arguments=--application_country=es
   ```
