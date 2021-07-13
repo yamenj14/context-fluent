@@ -28,7 +28,6 @@ In this screenshot, we can see the parent context and three other contexts, name
 * Controllers in all contexts are extended by the parent controller and can have their own endpoints.
 
 ##### Thoughts on the application_country:
-We have two options to create a context: 
 Parameterizing the build job on circleci so we can pass the argument as follows: 
   ```
    -Dspring-boot.run.arguments=--application_country=es
